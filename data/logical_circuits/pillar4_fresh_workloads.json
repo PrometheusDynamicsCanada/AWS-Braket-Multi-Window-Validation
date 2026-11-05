@@ -1,0 +1,398 @@
+{
+  "fresh_bipartite_12q_s20261506": {
+    "instance_id": "fresh_bipartite_12q_s20261506",
+    "family": "bipartite",
+    "primary_metric": "bhattacharyya_overlap_fb",
+    "width": 12,
+    "seed": 20261506,
+    "exact_optimum": 0.0,
+    "random_expected_cut": 0.0,
+    "ideal_expected_cut": 0.0,
+    "threshold_90pct": 0.0,
+    "edges": []
+  },
+  "fresh_bipartite_8q_s20261440": {
+    "instance_id": "fresh_bipartite_8q_s20261440",
+    "family": "bipartite",
+    "primary_metric": "bhattacharyya_overlap_fb",
+    "width": 8,
+    "seed": 20261440,
+    "exact_optimum": 0.0,
+    "random_expected_cut": 0.0,
+    "ideal_expected_cut": 0.0,
+    "threshold_90pct": 0.0,
+    "edges": []
+  },
+  "fresh_dense_10q_s20261473": {
+    "instance_id": "fresh_dense_10q_s20261473",
+    "family": "dense",
+    "primary_metric": "bhattacharyya_overlap_fb",
+    "width": 10,
+    "seed": 20261473,
+    "exact_optimum": 0.0,
+    "random_expected_cut": 0.0,
+    "ideal_expected_cut": 0.0,
+    "threshold_90pct": 0.0,
+    "edges": []
+  },
+  "fresh_dense_6q_s20261407": {
+    "instance_id": "fresh_dense_6q_s20261407",
+    "family": "dense",
+    "primary_metric": "bhattacharyya_overlap_fb",
+    "width": 6,
+    "seed": 20261407,
+    "exact_optimum": 0.0,
+    "random_expected_cut": 0.0,
+    "ideal_expected_cut": 0.0,
+    "threshold_90pct": 0.0,
+    "edges": []
+  },
+  "fresh_qaoa_10q_s20261245": {
+    "instance_id": "fresh_qaoa_10q_s20261245",
+    "family": "qaoa_maxcut",
+    "primary_metric": "raw_approx_ratio",
+    "width": 10,
+    "seed": 20261245,
+    "exact_optimum": 14.0,
+    "random_expected_cut": 8.5,
+    "ideal_expected_cut": 6.9623271009135905,
+    "threshold_90pct": 13.0,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        0
+      ]
+    ]
+  },
+  "fresh_qaoa_12q_s20261264": {
+    "instance_id": "fresh_qaoa_12q_s20261264",
+    "family": "qaoa_maxcut",
+    "primary_metric": "raw_approx_ratio",
+    "width": 12,
+    "seed": 20261264,
+    "exact_optimum": 17.0,
+    "random_expected_cut": 10.5,
+    "ideal_expected_cut": 8.602314779833677,
+    "threshold_90pct": 16.0,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        0
+      ]
+    ]
+  },
+  "fresh_qaoa_6q_s20261207": {
+    "instance_id": "fresh_qaoa_6q_s20261207",
+    "family": "qaoa_maxcut",
+    "primary_metric": "raw_approx_ratio",
+    "width": 6,
+    "seed": 20261207,
+    "exact_optimum": 7.0,
+    "random_expected_cut": 5.0,
+    "ideal_expected_cut": 3.769713182333904,
+    "threshold_90pct": 7.0,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        0
+      ]
+    ]
+  },
+  "fresh_qaoa_8q_s20261226": {
+    "instance_id": "fresh_qaoa_8q_s20261226",
+    "family": "qaoa_maxcut",
+    "primary_metric": "raw_approx_ratio",
+    "width": 8,
+    "seed": 20261226,
+    "exact_optimum": 11.0,
+    "random_expected_cut": 7.0,
+    "ideal_expected_cut": 5.466211220427285,
+    "threshold_90pct": 10.0,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        0
+      ]
+    ]
+  },
+  "fresh_qft_10q_s20261357": {
+    "instance_id": "fresh_qft_10q_s20261357",
+    "family": "qft_phase",
+    "primary_metric": "bhattacharyya_overlap_fb",
+    "width": 10,
+    "seed": 20261357,
+    "exact_optimum": 0.0,
+    "random_expected_cut": 0.0,
+    "ideal_expected_cut": 0.0,
+    "threshold_90pct": 0.0,
+    "edges": []
+  },
+  "fresh_qft_12q_s20261382": {
+    "instance_id": "fresh_qft_12q_s20261382",
+    "family": "qft_phase",
+    "primary_metric": "bhattacharyya_overlap_fb",
+    "width": 12,
+    "seed": 20261382,
+    "exact_optimum": 0.0,
+    "random_expected_cut": 0.0,
+    "ideal_expected_cut": 0.0,
+    "threshold_90pct": 0.0,
+    "edges": []
+  },
+  "fresh_qft_6q_s20261307": {
+    "instance_id": "fresh_qft_6q_s20261307",
+    "family": "qft_phase",
+    "primary_metric": "bhattacharyya_overlap_fb",
+    "width": 6,
+    "seed": 20261307,
+    "exact_optimum": 0.0,
+    "random_expected_cut": 0.0,
+    "ideal_expected_cut": 0.0,
+    "threshold_90pct": 0.0,
+    "edges": []
+  },
+  "fresh_qft_8q_s20261332": {
+    "instance_id": "fresh_qft_8q_s20261332",
+    "family": "qft_phase",
+    "primary_metric": "bhattacharyya_overlap_fb",
+    "width": 8,
+    "seed": 20261332,
+    "exact_optimum": 0.0,
+    "random_expected_cut": 0.0,
+    "ideal_expected_cut": 0.0,
+    "threshold_90pct": 0.0,
+    "edges": []
+  }
+}

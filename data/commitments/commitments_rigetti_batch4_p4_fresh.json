@@ -1,0 +1,431 @@
+{
+  "software_version": "Prometheus_QRaaS_V86.0_Braket4Pillar",
+  "batch": "Rigetti_Batch4_Pillar4_EqualCPUBudget_Generalization",
+  "backend": "Cepheus-1-108Q",
+  "calibration_snapshot_sha256": "e1b24e8dc46002d76dd4657a241b8151e66e4700b20e504a7c6c91bfc0c48413",
+  "commitment_timestamp_utc": "2026-11-01T01:01:50.904771+00:00",
+  "frozen_baseline_selection_rule": "Minimize (native_2q, depth, seed/trial) within matched CPU wall-clock compilation budget >= Prometheus compile+select seconds",
+  "records": {
+    "fresh_qaoa_6q_s20261207": {
+      "family": "qaoa_maxcut",
+      "width": 6,
+      "matched_budget_target_seconds": 1.9485,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 52,
+          "depth": 145,
+          "compile_seconds": 0.0111,
+          "trials_evaluated": 1,
+          "sha256": "865308f303798e2236f8c9bf82c62600413dd179e93daac51b903a7c6aa4efca"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 50,
+          "depth": 143,
+          "compile_seconds": 1.9531,
+          "trials_evaluated": 185,
+          "sha256": "ce818eec379d2a893ffb268ac27ed0983dd28ea54a1b5ec7ed5288e91cb16763"
+        },
+        "tket_matched_budget": {
+          "native_2q": 50,
+          "depth": 144,
+          "compile_seconds": 1.9566,
+          "trials_evaluated": 111,
+          "sha256": "fba5e518fb3186cc8b50eea9d733aebb49979f10a97e227e40510cd5924afa7b"
+        },
+        "prometheus_candidate": {
+          "native_2q": 50,
+          "depth": 149,
+          "compile_seconds": 1.9485,
+          "trials_evaluated": 10,
+          "sha256": "2443e82e8ff1d3dbf241ddc6b282e007422980598d07f2d1d2e7d77c712ec471"
+        }
+      }
+    },
+    "fresh_qaoa_8q_s20261226": {
+      "family": "qaoa_maxcut",
+      "width": 8,
+      "matched_budget_target_seconds": 2.464,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 83,
+          "depth": 203,
+          "compile_seconds": 0.0126,
+          "trials_evaluated": 1,
+          "sha256": "79cdb04678e47e2cd0fc6a27ebf8e8e62630bf7dbe9955e6137d1599dad1ad0e"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 77,
+          "depth": 178,
+          "compile_seconds": 2.4684,
+          "trials_evaluated": 206,
+          "sha256": "2857d3c5aedfef0d236140a8c7ed771a389121c65f30120d7adfc8af803f7b43"
+        },
+        "tket_matched_budget": {
+          "native_2q": 78,
+          "depth": 171,
+          "compile_seconds": 2.6753,
+          "trials_evaluated": 106,
+          "sha256": "9cc1301d6de164144ad20d367ba20ac51751502449505d6f4c5fde0fcd2412fd"
+        },
+        "prometheus_candidate": {
+          "native_2q": 83,
+          "depth": 177,
+          "compile_seconds": 2.464,
+          "trials_evaluated": 10,
+          "sha256": "693c277f70b15f2f4f901eca3bfc96f74610e755e0c3df0d7a9dd3b4ad07a837"
+        }
+      }
+    },
+    "fresh_qaoa_10q_s20261245": {
+      "family": "qaoa_maxcut",
+      "width": 10,
+      "matched_budget_target_seconds": 3.1194,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 106,
+          "depth": 287,
+          "compile_seconds": 0.014,
+          "trials_evaluated": 1,
+          "sha256": "d66d48f5e7817ed2c258b13a6234bce50e380523cf09442dd2699d8b437bc978"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 99,
+          "depth": 263,
+          "compile_seconds": 3.1251,
+          "trials_evaluated": 228,
+          "sha256": "150aadc41ed2cd233d667d02fd1ccbaf3863b88644b79166e02565c310891bbf"
+        },
+        "tket_matched_budget": {
+          "native_2q": 99,
+          "depth": 264,
+          "compile_seconds": 3.1293,
+          "trials_evaluated": 122,
+          "sha256": "980cb9e3b2e746ef7cdee08dc4fe110d493810b613992a439be0c5327f8521af"
+        },
+        "prometheus_candidate": {
+          "native_2q": 102,
+          "depth": 254,
+          "compile_seconds": 3.1194,
+          "trials_evaluated": 10,
+          "sha256": "2a2c1d3c479348e4e2ec7698bc163dba0f3c410a265dacf71fdc59f422b78518"
+        }
+      }
+    },
+    "fresh_qaoa_12q_s20261264": {
+      "family": "qaoa_maxcut",
+      "width": 12,
+      "matched_budget_target_seconds": 3.703,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 135,
+          "depth": 335,
+          "compile_seconds": 0.0138,
+          "trials_evaluated": 1,
+          "sha256": "8fe02c7f185050d43008321203412a8a68d59ad4f1b90ed21487ad5af44d9d17"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 119,
+          "depth": 284,
+          "compile_seconds": 3.7041,
+          "trials_evaluated": 235,
+          "sha256": "034b086c5002c99dcf066c752de6dbee16c2f021c3e54d48d8e5a9e88e7ec030"
+        },
+        "tket_matched_budget": {
+          "native_2q": 127,
+          "depth": 307,
+          "compile_seconds": 3.7094,
+          "trials_evaluated": 130,
+          "sha256": "655ec6585d12674cd1e5488f34f4dbf94f831fdad88d1ca412e76ee65456b165"
+        },
+        "prometheus_candidate": {
+          "native_2q": 137,
+          "depth": 301,
+          "compile_seconds": 3.703,
+          "trials_evaluated": 10,
+          "sha256": "354140a2d14a8b569dc83e805b11b1758b68214c4a1997641690ad0ddc9178d9"
+        }
+      }
+    },
+    "fresh_qft_6q_s20261307": {
+      "family": "qft_phase",
+      "width": 6,
+      "matched_budget_target_seconds": 1.7957,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 41,
+          "depth": 97,
+          "compile_seconds": 0.0094,
+          "trials_evaluated": 1,
+          "sha256": "be5b1c3ba80e43316678b6d9ccf9974b1acfb2a934b1f1453df53e661c907233"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 36,
+          "depth": 89,
+          "compile_seconds": 1.7983,
+          "trials_evaluated": 187,
+          "sha256": "ffd682d0fef9ee083fc4eb76b050dd56fa0b3911ddb24392160688b6cde7eba8"
+        },
+        "tket_matched_budget": {
+          "native_2q": 39,
+          "depth": 109,
+          "compile_seconds": 1.8034,
+          "trials_evaluated": 107,
+          "sha256": "d1567db651eba9d92540d65b89ac26bcf9666bf8ea67e2e6523b7dcc4f22b13c"
+        },
+        "prometheus_candidate": {
+          "native_2q": 41,
+          "depth": 97,
+          "compile_seconds": 1.7957,
+          "trials_evaluated": 10,
+          "sha256": "be5b1c3ba80e43316678b6d9ccf9974b1acfb2a934b1f1453df53e661c907233"
+        }
+      }
+    },
+    "fresh_qft_8q_s20261332": {
+      "family": "qft_phase",
+      "width": 8,
+      "matched_budget_target_seconds": 2.5211,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 64,
+          "depth": 179,
+          "compile_seconds": 0.0105,
+          "trials_evaluated": 1,
+          "sha256": "10a8a45e652575c0ae0f88d62cf886b8efb1413f9c69716e1e5aa20e30462790"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 56,
+          "depth": 130,
+          "compile_seconds": 2.5317,
+          "trials_evaluated": 232,
+          "sha256": "3a529177f82bbc1a5a3381e8b1b05bc5ca7905298fb18bec16f0d666075c153c"
+        },
+        "tket_matched_budget": {
+          "native_2q": 61,
+          "depth": 161,
+          "compile_seconds": 2.5278,
+          "trials_evaluated": 123,
+          "sha256": "3b9a4553f0a536d65a8589f7d1eb41efb1421db1158ddda252d0f63b4aa9a51b"
+        },
+        "prometheus_candidate": {
+          "native_2q": 60,
+          "depth": 139,
+          "compile_seconds": 2.5211,
+          "trials_evaluated": 10,
+          "sha256": "8ceaf470849333f1d3facc6e75169edf46311d106d77d8e6c110984e4bb5973f"
+        }
+      }
+    },
+    "fresh_qft_10q_s20261357": {
+      "family": "qft_phase",
+      "width": 10,
+      "matched_budget_target_seconds": 3.563,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 94,
+          "depth": 237,
+          "compile_seconds": 0.0119,
+          "trials_evaluated": 1,
+          "sha256": "c5ef0a49f51579940a3b7a0f6e76745e667870fa368d2e94eb6e3d1107a43db2"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 78,
+          "depth": 183,
+          "compile_seconds": 3.5729,
+          "trials_evaluated": 295,
+          "sha256": "9584d503af1080d97e4291c381a0ba30189f144bcc0f02410941c1e061b04821"
+        },
+        "tket_matched_budget": {
+          "native_2q": 80,
+          "depth": 199,
+          "compile_seconds": 3.5664,
+          "trials_evaluated": 156,
+          "sha256": "dc407555c3c735bc84d5c2053d6c6f573868c870bf2cf696c966e1e373a73d0a"
+        },
+        "prometheus_candidate": {
+          "native_2q": 90,
+          "depth": 202,
+          "compile_seconds": 3.563,
+          "trials_evaluated": 10,
+          "sha256": "e61a2f17393dcfd2438e590e47b1d418a6e370b80913d4efe5832e0215ce0154"
+        }
+      }
+    },
+    "fresh_qft_12q_s20261382": {
+      "family": "qft_phase",
+      "width": 12,
+      "matched_budget_target_seconds": 3.8904,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 122,
+          "depth": 307,
+          "compile_seconds": 0.013,
+          "trials_evaluated": 1,
+          "sha256": "dc02854239acb5c7623ed8d46c05f17a937ce6d572f005a3efc3146954bd1966"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 103,
+          "depth": 228,
+          "compile_seconds": 3.898,
+          "trials_evaluated": 292,
+          "sha256": "64ce6c2621308f3deb6448e11ca974a008dd36cd19e30f1eb5ea5a45f6ff8ea3"
+        },
+        "tket_matched_budget": {
+          "native_2q": 108,
+          "depth": 267,
+          "compile_seconds": 3.8964,
+          "trials_evaluated": 121,
+          "sha256": "c186adb4c28659a29dc3db0495e1bd0c31fa11f294c0ba261c513e99e5863a19"
+        },
+        "prometheus_candidate": {
+          "native_2q": 107,
+          "depth": 235,
+          "compile_seconds": 3.8904,
+          "trials_evaluated": 10,
+          "sha256": "de0c0dfb4148ca8c8040760463b82af1362a9356a3229f9aae18a168667aef67"
+        }
+      }
+    },
+    "fresh_dense_6q_s20261407": {
+      "family": "dense",
+      "width": 6,
+      "matched_budget_target_seconds": 1.7942,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 28,
+          "depth": 64,
+          "compile_seconds": 0.0088,
+          "trials_evaluated": 1,
+          "sha256": "f0bc8991f6476462030938ff1520667db382599fe8368d8ebe800cf925c38f06"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 23,
+          "depth": 55,
+          "compile_seconds": 1.7991,
+          "trials_evaluated": 189,
+          "sha256": "49df9e22cf43aef78156301522534ed68caa06ce63b6d11802511c1ac1553a60"
+        },
+        "tket_matched_budget": {
+          "native_2q": 27,
+          "depth": 78,
+          "compile_seconds": 1.7952,
+          "trials_evaluated": 106,
+          "sha256": "0d680ec6b5c5998377693c80b3fc280bc3d0e964c4d0723dd456d7a091e2b26d"
+        },
+        "prometheus_candidate": {
+          "native_2q": 27,
+          "depth": 73,
+          "compile_seconds": 1.7942,
+          "trials_evaluated": 10,
+          "sha256": "b597f15375fced45a0f8adfe98f23c1364effeffe10bdc3f5d25b6a2e2892a75"
+        }
+      }
+    },
+    "fresh_bipartite_8q_s20261440": {
+      "family": "bipartite",
+      "width": 8,
+      "matched_budget_target_seconds": 1.9528,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 28,
+          "depth": 56,
+          "compile_seconds": 0.0103,
+          "trials_evaluated": 1,
+          "sha256": "ca8408d97b326b1f0de71a8ebf6ef96c136f05f795ce7655525385dacede1f88"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 22,
+          "depth": 41,
+          "compile_seconds": 1.9561,
+          "trials_evaluated": 190,
+          "sha256": "3bdbf30c75181ce0695f4171c7de480c899c187b42dae8211557cc653c4b12ed"
+        },
+        "tket_matched_budget": {
+          "native_2q": 32,
+          "depth": 76,
+          "compile_seconds": 1.9543,
+          "trials_evaluated": 105,
+          "sha256": "a4d0d113428da6699a7722909033e6622e228c438234b868f21b7f49ba0ac4ef"
+        },
+        "prometheus_candidate": {
+          "native_2q": 22,
+          "depth": 41,
+          "compile_seconds": 1.9528,
+          "trials_evaluated": 10,
+          "sha256": "3bdbf30c75181ce0695f4171c7de480c899c187b42dae8211557cc653c4b12ed"
+        }
+      }
+    },
+    "fresh_dense_10q_s20261473": {
+      "family": "dense",
+      "width": 10,
+      "matched_budget_target_seconds": 4.8712,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 97,
+          "depth": 175,
+          "compile_seconds": 0.0123,
+          "trials_evaluated": 1,
+          "sha256": "f0072a6095b609e1ae8180baa0f5ac5075b5c76ebd5933a52e98ce5da458033c"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 67,
+          "depth": 100,
+          "compile_seconds": 4.8782,
+          "trials_evaluated": 355,
+          "sha256": "0a5c3f1bcc65e3eff663f8d06828258f0c1d3f2459b4c0ccda8e9674c79f8530"
+        },
+        "tket_matched_budget": {
+          "native_2q": 67,
+          "depth": 97,
+          "compile_seconds": 4.8785,
+          "trials_evaluated": 134,
+          "sha256": "1cc7a6c62d7b9ffeecdc4a01367841c1b95acb703d3d51f902c0c3b3f1f006c2"
+        },
+        "prometheus_candidate": {
+          "native_2q": 67,
+          "depth": 104,
+          "compile_seconds": 4.8712,
+          "trials_evaluated": 10,
+          "sha256": "4890b959f6d605b7ef8aaca27d2ccfb2a5b7e06add6380081995b3e052af5fe9"
+        }
+      }
+    },
+    "fresh_bipartite_12q_s20261506": {
+      "family": "bipartite",
+      "width": 12,
+      "matched_budget_target_seconds": 3.3305,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 79,
+          "depth": 112,
+          "compile_seconds": 0.0143,
+          "trials_evaluated": 1,
+          "sha256": "31f2be1057b5effb472ebd5a0decf85f8a7bd80799adf8a3866e71888704c1d2"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 52,
+          "depth": 65,
+          "compile_seconds": 3.3373,
+          "trials_evaluated": 258,
+          "sha256": "1711c399bbbd8b4bd3777ed8575558cf147c137f1661e901dc97d2049897936c"
+        },
+        "tket_matched_budget": {
+          "native_2q": 91,
+          "depth": 168,
+          "compile_seconds": 3.3424,
+          "trials_evaluated": 123,
+          "sha256": "8300b912afb38edb00edc1d7f28a9c46fe79372946f8a809f278288b1351a561"
+        },
+        "prometheus_candidate": {
+          "native_2q": 52,
+          "depth": 65,
+          "compile_seconds": 3.3305,
+          "trials_evaluated": 10,
+          "sha256": "1711c399bbbd8b4bd3777ed8575558cf147c137f1661e901dc97d2049897936c"
+        }
+      }
+    }
+  },
+  "commitment_sha256": "7e4a89d9881decbaedab86c2f48b294603305d055911f87467007709875ade7a"
+}

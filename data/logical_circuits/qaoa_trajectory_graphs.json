@@ -1,0 +1,890 @@
+{
+  "qaoa_traj_4q": {
+    "graph_id": "qaoa_traj_4q",
+    "width": 4,
+    "seed": 20261267,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "exact_optimum": 4.0,
+    "threshold_90pct": 4.0,
+    "random_expected_cut": 3.0,
+    "random_approx_ratio": 0.75,
+    "stages": {
+      "initial": {
+        "params_gamma_beta": [
+          0.35,
+          0.35,
+          0.35,
+          0.35
+        ],
+        "ideal_expected_cut": 1.449808,
+        "ideal_approx_ratio": 0.362452,
+        "ideal_p_ge_90pct": 0.285863
+      },
+      "intermediate": {
+        "params_gamma_beta": [
+          0.638251,
+          0.410992,
+          0.29345,
+          0.375616
+        ],
+        "ideal_expected_cut": 3.787857,
+        "ideal_approx_ratio": 0.946964,
+        "ideal_p_ge_90pct": 0.848473
+      },
+      "final_cobyla_solution": {
+        "params_gamma_beta": [
+          0.629982,
+          0.426017,
+          0.289219,
+          0.397069
+        ],
+        "ideal_expected_cut": 3.798545,
+        "ideal_approx_ratio": 0.949636,
+        "ideal_p_ge_90pct": 0.853521
+      }
+    }
+  },
+  "qaoa_traj_6q": {
+    "graph_id": "qaoa_traj_6q",
+    "width": 6,
+    "seed": 20261349,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "exact_optimum": 7.0,
+    "threshold_90pct": 7.0,
+    "random_expected_cut": 4.5,
+    "random_approx_ratio": 0.642857,
+    "stages": {
+      "initial": {
+        "params_gamma_beta": [
+          0.35,
+          0.35,
+          0.35,
+          0.35
+        ],
+        "ideal_expected_cut": 2.876649,
+        "ideal_approx_ratio": 0.41095,
+        "ideal_p_ge_90pct": 0.020848
+      },
+      "intermediate": {
+        "params_gamma_beta": [
+          0.532107,
+          0.401289,
+          0.272458,
+          0.638325
+        ],
+        "ideal_expected_cut": 4.776432,
+        "ideal_approx_ratio": 0.682347,
+        "ideal_p_ge_90pct": 0.054339
+      },
+      "final_cobyla_solution": {
+        "params_gamma_beta": [
+          0.505405,
+          0.411088,
+          0.254939,
+          0.660177
+        ],
+        "ideal_expected_cut": 4.789897,
+        "ideal_approx_ratio": 0.684271,
+        "ideal_p_ge_90pct": 0.058215
+      }
+    }
+  },
+  "qaoa_traj_8q": {
+    "graph_id": "qaoa_traj_8q",
+    "width": 8,
+    "seed": 20261431,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        0
+      ]
+    ],
+    "exact_optimum": 10.0,
+    "threshold_90pct": 9.0,
+    "random_expected_cut": 6.0,
+    "random_approx_ratio": 0.6,
+    "stages": {
+      "initial": {
+        "params_gamma_beta": [
+          0.35,
+          0.35,
+          0.35,
+          0.35
+        ],
+        "ideal_expected_cut": 3.868657,
+        "ideal_approx_ratio": 0.386866,
+        "ideal_p_ge_90pct": 0.031146
+      },
+      "intermediate": {
+        "params_gamma_beta": [
+          1.148438,
+          0.195947,
+          0.420635,
+          0.874422
+        ],
+        "ideal_expected_cut": 7.308792,
+        "ideal_approx_ratio": 0.730879,
+        "ideal_p_ge_90pct": 0.222601
+      },
+      "final_cobyla_solution": {
+        "params_gamma_beta": [
+          1.128615,
+          0.173619,
+          0.345138,
+          0.857067
+        ],
+        "ideal_expected_cut": 7.410994,
+        "ideal_approx_ratio": 0.741099,
+        "ideal_p_ge_90pct": 0.224073
+      }
+    }
+  },
+  "qaoa_traj_10q": {
+    "graph_id": "qaoa_traj_10q",
+    "width": 10,
+    "seed": 20261513,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        0
+      ]
+    ],
+    "exact_optimum": 14.0,
+    "threshold_90pct": 13.0,
+    "random_expected_cut": 7.5,
+    "random_approx_ratio": 0.535714,
+    "stages": {
+      "initial": {
+        "params_gamma_beta": [
+          0.35,
+          0.35,
+          0.35,
+          0.35
+        ],
+        "ideal_expected_cut": 4.902851,
+        "ideal_approx_ratio": 0.350204,
+        "ideal_p_ge_90pct": 0.000112
+      },
+      "intermediate": {
+        "params_gamma_beta": [
+          1.074021,
+          0.159557,
+          0.09882,
+          1.109426
+        ],
+        "ideal_expected_cut": 8.190621,
+        "ideal_approx_ratio": 0.585044,
+        "ideal_p_ge_90pct": 0.000805
+      },
+      "final_cobyla_solution": {
+        "params_gamma_beta": [
+          1.038133,
+          0.203581,
+          0.252407,
+          0.967135
+        ],
+        "ideal_expected_cut": 8.256385,
+        "ideal_approx_ratio": 0.589742,
+        "ideal_p_ge_90pct": 0.000923
+      }
+    }
+  },
+  "qaoa_traj_12q": {
+    "graph_id": "qaoa_traj_12q",
+    "width": 12,
+    "seed": 20261595,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        0
+      ]
+    ],
+    "exact_optimum": 15.0,
+    "threshold_90pct": 14.0,
+    "random_expected_cut": 9.0,
+    "random_approx_ratio": 0.6,
+    "stages": {
+      "initial": {
+        "params_gamma_beta": [
+          0.35,
+          0.35,
+          0.35,
+          0.35
+        ],
+        "ideal_expected_cut": 5.934567,
+        "ideal_approx_ratio": 0.395638,
+        "ideal_p_ge_90pct": 0.000505
+      },
+      "intermediate": {
+        "params_gamma_beta": [
+          1.009792,
+          0.292792,
+          0.270383,
+          1.015641
+        ],
+        "ideal_expected_cut": 11.788732,
+        "ideal_approx_ratio": 0.785915,
+        "ideal_p_ge_90pct": 0.125782
+      },
+      "final_cobyla_solution": {
+        "params_gamma_beta": [
+          1.072964,
+          0.215832,
+          0.253992,
+          0.954599
+        ],
+        "ideal_expected_cut": 12.006253,
+        "ideal_approx_ratio": 0.800417,
+        "ideal_p_ge_90pct": 0.130819
+      }
+    }
+  },
+  "qaoa_traj_14q": {
+    "graph_id": "qaoa_traj_14q",
+    "width": 14,
+    "seed": 20261677,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        0
+      ]
+    ],
+    "exact_optimum": 19.0,
+    "threshold_90pct": 18.0,
+    "random_expected_cut": 10.5,
+    "random_approx_ratio": 0.552632,
+    "stages": {
+      "initial": {
+        "params_gamma_beta": [
+          0.35,
+          0.35,
+          0.35,
+          0.35
+        ],
+        "ideal_expected_cut": 6.892705,
+        "ideal_approx_ratio": 0.362774,
+        "ideal_p_ge_90pct": 6e-06
+      },
+      "intermediate": {
+        "params_gamma_beta": [
+          0.926034,
+          0.287253,
+          -0.41118,
+          0.733463
+        ],
+        "ideal_expected_cut": 11.152877,
+        "ideal_approx_ratio": 0.586994,
+        "ideal_p_ge_90pct": 0.001911
+      },
+      "final_cobyla_solution": {
+        "params_gamma_beta": [
+          0.386483,
+          0.29713,
+          -0.344158,
+          0.041208
+        ],
+        "ideal_expected_cut": 13.64867,
+        "ideal_approx_ratio": 0.718351,
+        "ideal_p_ge_90pct": 0.026615
+      }
+    }
+  },
+  "qaoa_traj_16q": {
+    "graph_id": "qaoa_traj_16q",
+    "width": 16,
+    "seed": 20261759,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        15,
+        0
+      ]
+    ],
+    "exact_optimum": 20.0,
+    "threshold_90pct": 18.0,
+    "random_expected_cut": 12.0,
+    "random_approx_ratio": 0.6,
+    "stages": {
+      "initial": {
+        "params_gamma_beta": [
+          0.35,
+          0.35,
+          0.35,
+          0.35
+        ],
+        "ideal_expected_cut": 7.418021,
+        "ideal_approx_ratio": 0.370901,
+        "ideal_p_ge_90pct": 2.3e-05
+      },
+      "intermediate": {
+        "params_gamma_beta": [
+          0.953322,
+          0.303212,
+          -0.214457,
+          0.500538
+        ],
+        "ideal_expected_cut": 13.418538,
+        "ideal_approx_ratio": 0.670927,
+        "ideal_p_ge_90pct": 0.0098
+      },
+      "final_cobyla_solution": {
+        "params_gamma_beta": [
+          1.013885,
+          0.288833,
+          -0.179312,
+          0.572949
+        ],
+        "ideal_expected_cut": 13.515249,
+        "ideal_approx_ratio": 0.675762,
+        "ideal_p_ge_90pct": 0.010504
+      }
+    }
+  },
+  "qaoa_traj_17q": {
+    "graph_id": "qaoa_traj_17q",
+    "width": 17,
+    "seed": 20261800,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        16,
+        0
+      ]
+    ],
+    "exact_optimum": 21.0,
+    "threshold_90pct": 19.0,
+    "random_expected_cut": 12.5,
+    "random_approx_ratio": 0.595238,
+    "stages": {
+      "initial": {
+        "params_gamma_beta": [
+          0.35,
+          0.35,
+          0.35,
+          0.35
+        ],
+        "ideal_expected_cut": 8.125711,
+        "ideal_approx_ratio": 0.386939,
+        "ideal_p_ge_90pct": 4e-05
+      },
+      "intermediate": {
+        "params_gamma_beta": [
+          1.210762,
+          0.182467,
+          0.508352,
+          0.700325
+        ],
+        "ideal_expected_cut": 13.623441,
+        "ideal_approx_ratio": 0.648735,
+        "ideal_p_ge_90pct": 0.003348
+      },
+      "final_cobyla_solution": {
+        "params_gamma_beta": [
+          1.223044,
+          0.153935,
+          0.440431,
+          0.723796
+        ],
+        "ideal_expected_cut": 13.669225,
+        "ideal_approx_ratio": 0.650915,
+        "ideal_p_ge_90pct": 0.00379
+      }
+    }
+  }
+}
